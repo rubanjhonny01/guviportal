@@ -8,4 +8,4 @@ if l1!=[]:
     for x in l1:
         print(x,end=" ")
 else:
-    print('-1')
+    print(-1)
