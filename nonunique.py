@@ -7,6 +7,5 @@ for x in l:
         l1.append(x)
     elif x in l1 and x not in l2:
         l2.append(x)
-print(l2,l1)
 for x in l2:
     print(x,end=" ")
