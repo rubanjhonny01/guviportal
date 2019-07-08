@@ -7,5 +7,8 @@ for x in l:
         l1.append(x)
     elif x in l1 and x not in l2:
         l2.append(x)
-for x in l2:
-    print(x,end=" ")
+if len(l2)!=0:
+    for x in l2:
+        print(x,end=" ")
+else:
+    print("unique")
