@@ -1,7 +1,7 @@
 x=input()
 y='1234567890'
-a='yes'
+a='Yes'
 for i in x:
   if i not in y:
-    a='no'
+    a='No'
 print(a)
