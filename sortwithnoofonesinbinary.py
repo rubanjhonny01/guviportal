@@ -1,6 +1,8 @@
 n=int(input())
 l1=list(map(int,input().split()))
-dic1={'a':1}
+l1.sort()
+l1.reverse()
+dic1={}
 l=[]
 for x in l1:
     s=''
